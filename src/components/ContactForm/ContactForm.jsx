@@ -33,7 +33,7 @@ export const ContactForm = ({ onAdd }) => {
           <ErrorMessage component="div" name="name" />
 
           <lebel>Number</lebel>
-          <Field name="number" type="text" placeholder="000-00-00" />
+          <Field name="number" type="tel" placeholder="000-00-00" />
           <ErrorMessage component="div" name="number" />
 
           <Button type="submit">
